@@ -1,0 +1,161 @@
+[{
+    "eal": 28,
+    "single": 99,
+    "burst": 99
+}, {
+    "eal": 27,
+    "single": 98,
+    "burst": 98
+}, {
+    "eal": 26,
+    "single": 96,
+    "burst": 98
+}, {
+    "eal": 26,
+    "single": 94,
+    "burst": 97
+}, {
+    "eal": 24,
+    "single": 90,
+    "burst": 95
+}, {
+    "eal": 23,
+    "single": 86,
+    "burst": 92
+}, {
+    "eal": 22,
+    "single": 80,
+    "burst": 90
+}, {
+    "eal": 21,
+    "single": 74,
+    "burst": 86
+}, {
+    "eal": 20,
+    "single": 67,
+    "burst": 82
+}, {
+    "eal": 19,
+    "single": 60,
+    "burst": 77
+}, {
+    "eal": 18,
+    "single": 53,
+    "burst": 73
+}, {
+    "eal": 17,
+    "single": 46,
+    "burst": 68
+}, {
+    "eal": 16,
+    "single": 39,
+    "burst": 62
+}, {
+    "eal": 15,
+    "single": 33,
+    "burst": 57
+}, {
+    "eal": 14,
+    "single": 27,
+    "burst": 52
+}, {
+    "eal": 13,
+    "single": 22,
+    "burst": 47
+}, {
+    "eal": 12,
+    "single": 18,
+    "burst": 43
+}, {
+    "eal": 11,
+    "single": 15,
+    "burst": 38
+}, {
+    "eal": 10,
+    "single": 12,
+    "burst": 34
+}, {
+    "eal": 9,
+    "single": 9,
+    "burst": 31
+}, {
+    "eal": 8,
+    "single": 7,
+    "burst": 27
+}, {
+    "eal": 7,
+    "single": 6,
+    "burst": 24
+}, {
+    "eal": 6,
+    "single": 5,
+    "burst": 21
+}, {
+    "eal": 5,
+    "single": 4,
+    "burst": 19
+}, {
+    "eal": 4,
+    "single": 3,
+    "burst": 17
+}, {
+    "eal": 3,
+    "single": 2,
+    "burst": 15
+}, {
+    "eal": 2,
+    "single": 2,
+    "burst": 13
+}, {
+    "eal": 1,
+    "single": 1,
+    "burst": 11
+}, {
+    "eal": 0,
+    "single": 1,
+    "burst": 10
+}, {
+    "eal": -1,
+    "single": 1,
+    "burst": 9
+}, {
+    "eal": -2,
+    "single": 0,
+    "burst": 8
+}, {
+    "eal": -3,
+    "single": "none",
+    "burst": 7
+}, {
+    "eal": -4,
+    "single": "none",
+    "burst": 6
+}, {
+    "eal": -5,
+    "single": "none",
+    "burst": 5
+}, {
+    "eal": -6,
+    "single": "none",
+    "burst": 4
+}, {
+    "eal": -8,
+    "single": "none",
+    "burst": 3
+}, {
+    "eal": -10,
+    "single": "none",
+    "burst": 2
+}, {
+    "eal": -15,
+    "single": "none",
+    "burst": 1
+}, {
+    "eal": -17,
+    "single": "none",
+    "burst": 0
+}, {
+    "eal": -22,
+    "single": "none",
+    "burst": "none"
+}]

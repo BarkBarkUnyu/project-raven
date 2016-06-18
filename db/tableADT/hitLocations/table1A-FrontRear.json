@@ -1,0 +1,465 @@
+[{
+    "stance": "Looking Over Cover",
+    "rolls": [{
+        "rollMin": 0,
+        "rollSplit": "none",
+        "rollMax": 11,
+        "damageTable": "1",
+        "damageTableSec": "none",
+        "hitLocation": "Head Glance"
+    }, {
+        "rollMin": 12,
+        "rollSplit": "none",
+        "rollMax": 77,
+        "damageTable": "2",
+        "damageTableSec": "none",
+        "hitLocation": "Forehead"
+    }, {
+        "rollMin": 78,
+        "rollSplit": "none",
+        "rollMax": 99,
+        "damageTable": "3",
+        "damageTableSec": "none",
+        "hitLocation": "Eye - Nose"
+    }]
+}, {
+    "stance": "Firing Over Cover",
+    "rolls": [{
+        "rollMin": 0,
+        "rollSplit": "none",
+        "rollMax": 2,
+        "damageTable": "1",
+        "damageTableSec": "none",
+        "hitLocation": "Head Glance"
+    }, {
+        "rollMin": 3,
+        "rollSplit": "none",
+        "rollMax": 16,
+        "damageTable": "2",
+        "damageTableSec": "none",
+        "hitLocation": "Forehead"
+    }, {
+        "rollMin": 17,
+        "rollSplit": "none",
+        "rollMax": 21,
+        "damageTable": "3",
+        "damageTableSec": "none",
+        "hitLocation": "Eye - Nose"
+    }, {
+        "rollMin": 22,
+        "rollSplit": "none",
+        "rollMax": 32,
+        "damageTable": "4",
+        "damageTableSec": "none",
+        "hitLocation": "Mouth"
+    }, {
+        "rollMin": 33,
+        "rollSplit": "none",
+        "rollMax": 34,
+        "damageTable": "5",
+        "damageTableSec": "none",
+        "hitLocation": "Neck - Flesh"
+    }, {
+        "rollMin": 35,
+        "rollSplit": "none",
+        "rollMax": 36,
+        "damageTable": "6",
+        "damageTableSec": "none",
+        "hitLocation": "Neck - Throat"
+    }, {
+        "rollMin": 37,
+        "rollSplit": 43,
+        "rollMax": 48,
+        "damageTable": "7",
+        "damageTableSec": "none",
+        "hitLocation": "Shoulder Glance"
+    }, {
+        "rollMin": 49,
+        "rollSplit": 53,
+        "rollMax": 56,
+        "damageTable": "8",
+        "damageTableSec": "none",
+        "hitLocation": "Shoulder Socket"
+    }, {
+        "rollMin": 57,
+        "rollSplit": 59,
+        "rollMax": 60,
+        "damageTable": "9",
+        "damageTableSec": "none",
+        "hitLocation": "Shoulder"
+    }, {
+        "rollMin": 61,
+        "rollSplit": 62,
+        "rollMax": 62,
+        "damageTable": "10",
+        "damageTableSec": "none",
+        "hitLocation": "Arm Glance"
+    }, {
+        "rollMin": 63,
+        "rollSplit": 64,
+        "rollMax": 65,
+        "damageTable": "10",
+        "damageTableSec": "9",
+        "hitLocation": "Arm Glance - Shoulder"
+    }, {
+        "rollMin": 66,
+        "rollSplit": 67,
+        "rollMax": 68,
+        "damageTable": "11",
+        "damageTableSec": "none",
+        "hitLocation": "Arm Flesh"
+    }, {
+        "rollMin": 69,
+        "rollSplit": 70,
+        "rollMax": 71,
+        "damageTable": "11",
+        "damageTableSec": "9",
+        "hitLocation": "Arm Flesh - Shoulder"
+    }, {
+        "rollMin": 72,
+        "rollSplit": 73,
+        "rollMax": 74,
+        "damageTable": "12",
+        "damageTableSec": "9",
+        "hitLocation": "Arm Bone - Shoulder"
+    }, {
+        "rollMin": 75,
+        "rollSplit": 77,
+        "rollMax": 78,
+        "damageTable": "13",
+        "damageTableSec": "9",
+        "hitLocation": "Elbow - Shoulder"
+    }, {
+        "rollMin": 79,
+        "rollSplit": 80,
+        "rollMax": 81,
+        "damageTable": "14",
+        "damageTableSec": "19",
+        "hitLocation": "Forearm Flesh - Lung"
+    }, {
+        "rollMin": 82,
+        "rollSplit": 85,
+        "rollMax": 87,
+        "damageTable": "15",
+        "damageTableSec": "19",
+        "hitLocation": "Forearm Bone - Lung"
+    }, {
+        "rollMin": 88,
+        "rollSplit": 91,
+        "rollMax": 93,
+        "damageTable": "16",
+        "damageTableSec": "18",
+        "hitLocation": "Hand - Base of Neck"
+    }, {
+        "rollMin": 94,
+        "rollSplit": "none",
+        "rollMax": 99,
+        "damageTable": "Weapon",
+        "damageTableSec": "none",
+        "hitLocation": "Weapon Critical"
+    }]
+}, {
+    "stance": "In The Open",
+    "rolls": [{
+        "rollMin": 0,
+        "rollSplit": "none",
+        "rollMax": 4,
+        "damageTable": "1",
+        "damageTableSec": "none",
+        "hitLocation": "Head Glance"
+    }, {
+        "rollMin": 5,
+        "rollSplit": "none",
+        "rollMax": 27,
+        "damageTable": "2",
+        "damageTableSec": "none",
+        "hitLocation": "Forehead"
+    }, {
+        "rollMin": 28,
+        "rollSplit": "none",
+        "rollMax": 35,
+        "damageTable": "3",
+        "damageTableSec": "none",
+        "hitLocation": "Eye - Nose"
+    }, {
+        "rollMin": 36,
+        "rollSplit": "none",
+        "rollMax": 53,
+        "damageTable": "4",
+        "damageTableSec": "none",
+        "hitLocation": "Mouth"
+    }, {
+        "rollMin": 54,
+        "rollSplit": "none",
+        "rollMax": 56,
+        "damageTable": "5",
+        "damageTableSec": "none",
+        "hitLocation": "Neck - Flesh"
+    }, {
+        "rollMin": 57,
+        "rollSplit": "none",
+        "rollMax": 59,
+        "damageTable": "6",
+        "damageTableSec": "none",
+        "hitLocation": "Neck - Throat"
+    }, {
+        "rollMin": 60,
+        "rollSplit": 70,
+        "rollMax": 80,
+        "damageTable": "7",
+        "damageTableSec": "none",
+        "hitLocation": "Shoulder Glance"
+    }, {
+        "rollMin": 81,
+        "rollSplit": 88,
+        "rollMax": 94,
+        "damageTable": "8",
+        "damageTableSec": "none",
+        "hitLocation": "Shoulder Socket"
+    }, {
+        "rollMin": 95,
+        "rollSplit": 98,
+        "rollMax": 100,
+        "damageTable": "9",
+        "damageTableSec": "none",
+        "hitLocation": "Shoulder"
+    }, {
+        "rollMin": 101,
+        "rollSplit": 102,
+        "rollMax": 103,
+        "damageTable": "10",
+        "damageTableSec": "none",
+        "hitLocation": "Arm Glance"
+    }, {
+        "rollMin": 104,
+        "rollSplit": 106,
+        "rollMax": 108,
+        "damageTable": "10",
+        "damageTableSec": "9",
+        "hitLocation": "Arm Glance - Shoulder"
+    }, {
+        "rollMin": 109,
+        "rollSplit": 111,
+        "rollMax": 113,
+        "damageTable": "11",
+        "damageTableSec": "none",
+        "hitLocation": "Arm Flesh"
+    }, {
+        "rollMin": 114,
+        "rollSplit": 116,
+        "rollMax": 117,
+        "damageTable": "11",
+        "damageTableSec": "9",
+        "hitLocation": "Arm Flesh - Shoulder"
+    }, {
+        "rollMin": 118,
+        "rollSplit": 120,
+        "rollMax": 121,
+        "damageTable": "12",
+        "damageTableSec": "9",
+        "hitLocation": "Arm Bone - Shoulder"
+    }, {
+        "rollMin": 122,
+        "rollSplit": 125,
+        "rollMax": 128,
+        "damageTable": "13",
+        "damageTableSec": "9",
+        "hitLocation": "Elbow - Shoulder"
+    }, {
+        "rollMin": 129,
+        "rollSplit": 131,
+        "rollMax": 132,
+        "damageTable": "14",
+        "damageTableSec": "19",
+        "hitLocation": "Forearm Flesh - Lung"
+    }, {
+        "rollMin": 133,
+        "rollSplit": 138,
+        "rollMax": 143,
+        "damageTable": "15",
+        "damageTableSec": "19",
+        "hitLocation": "Forearm Bone - Lung"
+    }, {
+        "rollMin": 144,
+        "rollSplit": 149,
+        "rollMax": 154,
+        "damageTable": "16",
+        "damageTableSec": "18",
+        "hitLocation": "Hand - Base of Neck"
+    }, {
+        "rollMin": 155,
+        "rollSplit": "none",
+        "rollMax": 166,
+        "damageTable": "Weapon",
+        "damageTableSec": "none",
+        "hitLocation": "Weapon Critical"
+    }, {
+        "rollMin": 167,
+        "rollSplit": "none",
+        "rollMax": 194,
+        "damageTable": "17",
+        "damageTableSec": "none",
+        "hitLocation": "Torso Glance"
+    }, {
+        "rollMin": 195,
+        "rollSplit": "none",
+        "rollMax": 207,
+        "damageTable": "18",
+        "damageTableSec": "none",
+        "hitLocation": "Base of Neck"
+    }, {
+        "rollMin": 208,
+        "rollSplit": "none",
+        "rollMax": 223,
+        "damageTable": "19",
+        "damageTableSec": "none",
+        "hitLocation": "Lung - Rib"
+    }, {
+        "rollMin": 224,
+        "rollSplit": "none",
+        "rollMax": 241,
+        "damageTable": "20",
+        "damageTableSec": "none",
+        "hitLocation": "Lung"
+    }, {
+        "rollMin": 242,
+        "rollSplit": "none",
+        "rollMax": 251,
+        "damageTable": "21",
+        "damageTableSec": "none",
+        "hitLocation": "Heart"
+    }, {
+        "rollMin": 252,
+        "rollSplit": "none",
+        "rollMax": 264,
+        "damageTable": "22",
+        "damageTableSec": "none",
+        "hitLocation": "Liver - Rib"
+    }, {
+        "rollMin": 265,
+        "rollSplit": "none",
+        "rollMax": 272,
+        "damageTable": "23",
+        "damageTableSec": "none",
+        "hitLocation": "Liver"
+    }, {
+        "rollMin": 273,
+        "rollSplit": "none",
+        "rollMax": 283,
+        "damageTable": "24",
+        "damageTableSec": "none",
+        "hitLocation": "Stomach - Rib"
+    }, {
+        "rollMin": 284,
+        "rollSplit": "none",
+        "rollMax": 290,
+        "damageTable": "25",
+        "damageTableSec": "none",
+        "hitLocation": "Stomach"
+    }, {
+        "rollMin": 291,
+        "rollSplit": "none",
+        "rollMax": 303,
+        "damageTable": "26",
+        "damageTableSec": "none",
+        "hitLocation": "Stomach - Spleen"
+    }, {
+        "rollMin": 304,
+        "rollSplit": "none",
+        "rollMax": 312,
+        "damageTable": "27",
+        "damageTableSec": "none",
+        "hitLocation": "Stomach - Kidney"
+    }, {
+        "rollMin": 313,
+        "rollSplit": "none",
+        "rollMax": 334,
+        "damageTable": "28",
+        "damageTableSec": "none",
+        "hitLocation": "Liver - Kidney"
+    }, {
+        "rollMin": 335,
+        "rollSplit": "none",
+        "rollMax": 348,
+        "damageTable": "29",
+        "damageTableSec": "none",
+        "hitLocation": "Liver - Spine"
+    }, {
+        "rollMin": 349,
+        "rollSplit": "none",
+        "rollMax": 389,
+        "damageTable": "30",
+        "damageTableSec": "none",
+        "hitLocation": "Intestines"
+    }, {
+        "rollMin": 390,
+        "rollSplit": "none",
+        "rollMax": 416,
+        "damageTable": "31",
+        "damageTableSec": "none",
+        "hitLocation": "Spine"
+    }, {
+        "rollMin": 417,
+        "rollSplit": "none",
+        "rollMax": 533,
+        "damageTable": "32",
+        "damageTableSec": "none",
+        "hitLocation": "Pelvis"
+    }, {
+        "rollMin": 534,
+        "rollSplit": 548,
+        "rollMax": 561,
+        "damageTable": "33",
+        "damageTableSec": "none",
+        "hitLocation": "Hip Socket"
+    }, {
+        "rollMin": 562,
+        "rollSplit": 584,
+        "rollMax": 605,
+        "damageTable": "34",
+        "damageTableSec": "none",
+        "hitLocation": "Leg Glance"
+    }, {
+        "rollMin": 606,
+        "rollSplit": 681,
+        "rollMax": 755,
+        "damageTable": "35",
+        "damageTableSec": "none",
+        "hitLocation": "Thigh Flesh"
+    }, {
+        "rollMin": 756,
+        "rollSplit": 775,
+        "rollMax": 793,
+        "damageTable": "36",
+        "damageTableSec": "none",
+        "hitLocation": "Thigh Bone"
+    }, {
+        "rollMin": 794,
+        "rollSplit": 815,
+        "rollMax": 835,
+        "damageTable": "37",
+        "damageTableSec": "none",
+        "hitLocation": "Knee"
+    }, {
+        "rollMin": 836,
+        "rollSplit": 856,
+        "rollMax": 876,
+        "damageTable": "38",
+        "damageTableSec": "none",
+        "hitLocation": "Shin Flesh"
+    }, {
+        "rollMin": 877,
+        "rollSplit": 906,
+        "rollMax": 835,
+        "damageTable": "39",
+        "damageTableSec": "none",
+        "hitLocation": "Shin Bone"
+    }, {
+        "rollMin": 936,
+        "rollSplit": 968,
+        "rollMax": 999,
+        "damageTable": "40",
+        "damageTableSec": "none",
+        "hitLocation": "Foot"
+    }]
+}]

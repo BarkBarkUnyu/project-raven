@@ -1,0 +1,61 @@
+[{
+    "size": "Look Over/Around",
+    "almTargetSize": -4,
+    "almAutoElev": -3,
+    "almAutoWidth": -3
+}, {
+    "size": "Fire Over/Around",
+    "almTargetSize": 0,
+    "almAutoElev": 2,
+    "almAutoWidth": 2
+}, {
+    "size": "Standing Exposed",
+    "almTargetSize": 7,
+    "almAutoElev": 14,
+    "almAutoWidth": 1
+}, {
+    "size": "Kneeling Exposed",
+    "almTargetSize": 6,
+    "almAutoElev": 11,
+    "almAutoWidth": 3
+}, {
+    "size": "Prone/Crawl",
+    "almTargetSize": 2,
+    "almAutoElev": 2,
+    "almAutoWidth": 2
+}, {
+    "size": "Running",
+    "almTargetSize": 8,
+    "almAutoElev": 14,
+    "almAutoWidth": 1
+}, {
+    "size": "Low Crouch",
+    "almTargetSize": 7,
+    "almAutoElev": 11,
+    "almAutoWidth": 2
+}, {
+    "size": "Hands and Knees",
+    "almTargetSize": 6,
+    "almAutoElev": 8,
+    "almAutoWidth": 1
+}, {
+    "size": "Low Prone",
+    "almTargetSize": 1,
+    "almAutoElev": 0,
+    "almAutoWidth": 5
+}, {
+    "size": "Head",
+    "almTargetSize": -3,
+    "almAutoElev": 0,
+    "almAutoWidth": -3
+}, {
+    "size": "Body",
+    "almTargetSize": 5,
+    "almAutoElev": 8,
+    "almAutoWidth": 3
+}, {
+    "size": "Legs",
+    "almTargetSize": 4,
+    "almAutoElev": 8,
+    "almAutoWidth": 0
+}]

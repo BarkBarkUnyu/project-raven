@@ -1,0 +1,52 @@
+[{
+    "stance": "Standing",
+    "alm": 0
+}, {
+    "stance": "Standing & Braced",
+    "alm": 4
+}, {
+    "stance": "Kneeling",
+    "alm": 3
+}, {
+    "stance": "Kneeling & Braced",
+    "alm": 5
+}, {
+    "stance": "Prone",
+    "alm": 6
+}, {
+    "stance": "Prone & Braced",
+    "alm": 7
+}, {
+    "stance": "Using Sling for Support",
+    "alm": 1
+}, {
+    "stance": "Firing from the Hip",
+    "alm": -6
+}, {
+    "stance": "Firing Rifle with One Hand",
+    "alm": -7
+}, {
+    "stance": "Firing Pistol with One Hand",
+    "alm": -4
+}, {
+    "stance": "Folding Stock Not Used",
+    "alm": -4
+}, {
+    "stance": "Firing Pistol Double Action",
+    "alm": -3
+}, {
+    "stance": "Deployed Bipod Not Braced",
+    "alm": -2
+}, {
+    "stance": "Bipod Mounted Weapon",
+    "alm": 3
+}, {
+    "stance": "Tripod Mounted Weapon",
+    "alm": 5
+}, {
+    "stance": "Turret Mounted Weapon",
+    "alm": 11
+}, {
+    "stance": "Pistol with Shoulder Stock",
+    "alm": 3
+}]

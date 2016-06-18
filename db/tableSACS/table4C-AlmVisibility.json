@@ -1,0 +1,43 @@
+[{
+    "visibility": "Good Visibility",
+    "alm": 0
+}, {
+    "visibility": "Dusk",
+    "alm": -2
+}, {
+    "visibility": "Night - Full Moon",
+    "alm": -4
+}, {
+    "visibility": "Night - 1/2 Moon",
+    "alm": -6
+}, {
+    "visibility": "Night - No Moon",
+    "alm": -12
+}, {
+    "visibility": "Firing at Muzzle Flash",
+    "alm": -10
+}, {
+    "visibility": "Smoke, Haze, Fog",
+    "alm": -6
+}, {
+    "visibility": "Looking into a Light",
+    "alm": -8
+}, {
+    "visibility": "Optical Scope under 8 hexes",
+    "alm": -6
+}, {
+    "visibility": "Optical Scope Broken",
+    "alm": -4
+}, {
+    "visibility": "Advanced Aiming System Broken",
+    "alm": -8
+}, {
+    "visibility": "Weapon Sights Broken",
+    "alm": -4
+}, {
+    "visibility": "Firing from Teargas, No Mask",
+    "alm": -8
+}, {
+    "visibility": "Shooter Not Looking",
+    "alm": -14
+}]

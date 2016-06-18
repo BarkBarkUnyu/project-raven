@@ -1,0 +1,160 @@
+[{
+    "range": 1,
+    "alm": 33
+}, {
+    "range": 2,
+    "alm": 28
+}, {
+    "range": 3,
+    "alm": 25
+}, {
+    "range": 4,
+    "alm": 23
+}, {
+    "range": 5,
+    "alm": 22
+}, {
+    "range": 6,
+    "alm": 20
+}, {
+    "range": 7,
+    "alm": 19
+}, {
+    "range": 8,
+    "alm": 18
+}, {
+    "range": 9,
+    "alm": 17
+}, {
+    "range": 11,
+    "alm": 16
+}, {
+    "range": 12,
+    "alm": 15
+}, {
+    "range": 14,
+    "alm": 14
+}, {
+    "range": 16,
+    "alm": 13
+}, {
+    "range": 19,
+    "alm": 12
+}, {
+    "range": 22,
+    "alm": 11
+}, {
+    "range": 25,
+    "alm": 10
+}, {
+    "range": 30,
+    "alm": 9
+}, {
+    "range": 35,
+    "alm": 8
+}, {
+    "range": 40,
+    "alm": 7
+}, {
+    "range": 45,
+    "alm": 6
+}, {
+    "range": 50,
+    "alm": 5
+}, {
+    "range": 55,
+    "alm": 4
+}, {
+    "range": 65,
+    "alm": 3
+}, {
+    "range": 75,
+    "alm": 2
+}, {
+    "range": 85,
+    "alm": 1
+}, {
+    "range": 100,
+    "alm": 0
+}, {
+    "range": 115,
+    "alm": -1
+}, {
+    "range": 130,
+    "alm": -2
+}, {
+    "range": 150,
+    "alm": -3
+}, {
+    "range": 170,
+    "alm": -4
+}, {
+    "range": 200,
+    "alm": -5
+}, {
+    "range": 230,
+    "alm": -6
+}, {
+    "range": 250,
+    "alm": -7
+}, {
+    "range": 300,
+    "alm": -8
+}, {
+    "range": 350,
+    "alm": -9
+}, {
+    "range": 400,
+    "alm": -10
+}, {
+    "range": 450,
+    "alm": -11
+}, {
+    "range": 500,
+    "alm": -12
+}, {
+    "range": 600,
+    "alm": -13
+}, {
+    "range": 700,
+    "alm": -14
+}, {
+    "range": 800,
+    "alm": -15
+}, {
+    "range": 950,
+    "alm": -16
+}, {
+    "range": 1100,
+    "alm": -17
+}, {
+    "range": 1250,
+    "alm": -18
+}, {
+    "range": 1400,
+    "alm": -19
+}, {
+    "range": 1650,
+    "alm": -20
+}, {
+    "range": 1900,
+    "alm": -21
+}, {
+    "range": 2150,
+    "alm": -22
+}, {
+    "range": 2500,
+    "alm": -23
+}, {
+    "range": 2850,
+    "alm": -24
+}, {
+    "range": 3300,
+    "alm": -25
+}, {
+    "range": 3800,
+    "alm": -26
+}, {
+    "range": 4350,
+    "alm": -27
+}]
