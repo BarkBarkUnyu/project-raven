@@ -34,7 +34,7 @@ appRaven.controller('ravenAlmCalculator', function($scope, $http) {
             } else if ($scope.targetRange >= table4A[i].range && $scope.targetRange < table4A[i+1].range) {
               $scope.rangeAlm = table4A[i].alm;
             } else if ($scope.targetRange >= table4A[i].range) {
-              $scope.rangeAlm = table4A[i].alm;
+              $scope.rangeAlm = table4A[table4A.length-1].alm;
             }
         }
         $scope.stanceAlm = 0;
