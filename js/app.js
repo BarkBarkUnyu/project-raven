@@ -17,11 +17,11 @@
     $scope.calculateAlm = function() {
       $scope.shotAccuracy = $scope.skillAccuracyLevel + $scope.aimTimeMod;
       for (var i = 0; i < table4A.length; i++) {
-        if ($scope.targetRange === table4A[i].range) {
+        if ($scope.targetRange == table4A[i].range) {
           $scope.rangeAlm = table4A[i].alm;
         }
       }
-      $scope.effectiveAccuracyLevel = table4A.length;
+      $scope.effectiveAccuracyLevel = $scope.shotAccuracy + $scope.rangeALM;
     }
   });
 
