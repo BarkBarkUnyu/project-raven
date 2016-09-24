@@ -26,7 +26,7 @@ appRaven.controller('ravenAlmCalculator', function($scope, $http) {
 
     $scope.table4B = table4B;
     $scope.shooterStance = function() {
-      for (var i = 0; i < $scope.selectMultipleAlmShooterStance.length) {
+      for (var i = 0; i < $scope.selectMultipleAlmShooterStance.length; i++) {
         $scope.stanceAlm += $scope.selectMultipleAlmShooterStance[i];
       }
     }
