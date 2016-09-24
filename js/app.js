@@ -21,7 +21,7 @@
           $scope.rangeAlm = table4A[i].alm;
         }
       }
-      $scope.effectiveAccuracyLevel = $scope.shotAccuracy + $scope.rangeALM;
+      $scope.effectiveAccuracyLevel = table4A.length;
     }
   });
 
