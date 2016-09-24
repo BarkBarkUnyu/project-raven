@@ -25,6 +25,11 @@ appRaven.controller('ravenAlmCalculator', function($scope, $http) {
     $scope.stanceAlm = 0;
 
     $scope.table4B = table4B;
+    $scope.shooterStance = function() {
+      for (var i = 0; i < $scope.selectMultipleAlmShooterStance.length) {
+        $scope.stanceAlm += $scope.selectMultipleAlmShooterStance[i];
+      }
+    }
 
     $scope.calculateAlm = function() {
         $scope.shotAccuracy = $scope.skillAccuracyLevel + $scope.aimTimeMod;
