@@ -28,8 +28,8 @@ appRaven.controller('ravenAlmCalculator', function($scope, $http) {
 
     $scope.table4B = table4B;
     $scope.shooterStance = function() {
-      for (var i = 0; i < $scope.selectMultipleAlmShooterStance.length; i++) {
-        $scope.stanceAlm += parseInt($scope.selectMultipleAlmShooterStance[i]);
+      for (var i = 0; i < selectMultipleAlmShooterStance.length; i++) {
+        $scope.stanceAlm += parseInt(selectMultipleAlmShooterStance[i]);
       }
     }
 
