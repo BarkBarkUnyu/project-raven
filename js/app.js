@@ -21,11 +21,6 @@
         $scope.shooterStance = 0;
         $scope.stanceAlm = 0;
 
-
-        // angular.forEach(table4B, function());
-        $scope.injectStance =
-          '<option value="' + 1 + '">' + 1 + '</option>'
-
         $scope.calculateAlm = function() {
             $scope.shotAccuracy = $scope.skillAccuracyLevel + $scope.aimTimeMod;
             for (var i = 0; i < table4A.length; i++) {

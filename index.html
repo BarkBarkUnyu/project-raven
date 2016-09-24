@@ -43,8 +43,25 @@
                 <h2>Shooter Stance ALM</h2>
                 <label>
                     Stance
-                    <select ng-bind-html="injectStance">
-                        <option value="0">Test</option>
+                    <select id="select-multiple-alm-shooterStance" ng-model="data.selectMultipleAlmShooterStance" multiple>
+                     <option ng-repeat="stance in table4B" value="{{stance.stance}}">{{stance.alm}}</option>
+                        <!-- <option value="0">Standing</option>
+                        <option value="1">Standing & Braced</option>
+                        <option value="2">Kneeling</option>
+                        <option value="3">Kneeling & Braced</option>
+                        <option value="4">Prone</option>
+                        <option value="5">Prone & Braced</option>
+                        <option value="6">Using Sling for Support</option>
+                        <option value="7">Firing from the Hip</option>
+                        <option value="8">Firing Rifle with One Hand</option>
+                        <option value="9">Firing Pistol with One Hand</option>
+                        <option value="10">Folding Stock Not Used</option>
+                        <option value="11">Firing Pistol Double Action</option>
+                        <option value="12">Deployed Bipod Not Braced</option>
+                        <option value="13">Bipod Mounted Weapon</option>
+                        <option value="14">Tripod Mounted Weapon</option>
+                        <option value="15">Turret Mounted Weapon</option>
+                        <option value="16">Pistol with Shoulder Stock</option> -->
                     </select>
                 </label>
                 <label>
