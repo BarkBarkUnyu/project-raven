@@ -1,4 +1,5 @@
 (function() {
+  table4A = {};
   $.getJSON("js/data/db/tableSACS/table4A-AlmRange.json",
                 function(json) { table4A=json; console.log(json); });
 
