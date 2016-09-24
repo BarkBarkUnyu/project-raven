@@ -8,6 +8,7 @@ table4B = {};
 $.getJSON("js/data/db/tableSACS/table4B-AlmStance.json",
     function(json) {
         table4B = json;
+        $scope.table4B = json;
         console.log("table4B loaded!");
     });
 
