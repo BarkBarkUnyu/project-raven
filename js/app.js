@@ -8,7 +8,6 @@ table4B = {};
 $.getJSON("js/data/db/tableSACS/table4B-AlmStance.json",
     function(json) {
         table4B = json;
-        $scope.table4B = json;
         console.log("table4B loaded!");
     });
 
@@ -24,6 +23,8 @@ appRaven.controller('ravenAlmCalculator', function($scope, $http) {
     $scope.rangeAlm = 0;
     $scope.shooterStance = 0;
     $scope.stanceAlm = 0;
+
+    $scope.table4B = table4B;
 
     $scope.calculateAlm = function() {
         $scope.shotAccuracy = $scope.skillAccuracyLevel + $scope.aimTimeMod;
