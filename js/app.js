@@ -12,16 +12,16 @@
     $scope.aimTimeMod = 0;
     $scope.shotAccuracy = 0;
     $scope.targetRange = 0;
-    $scope.rangeALM = 0;
+    $scope.rangeAlm = 0;
 
-    $scope.calculateALM = function() {
+    $scope.calculateAlm = function() {
       $scope.shotAccuracy = $scope.skillAccuracyLevel + $scope.aimTimeMod;
       for (var i = 0; i < table4A.length; i++) {
         if ($scope.targetRange === table4A[i].range) {
-          $scope.rangeALM = table4A[i].alm;
+          $scope.rangeAlm = table4A[i].alm;
         }
       }
-      $scope.effectiveAccuracyLevel = $scope.shotAccuracy + $scope.rangeALM;
+      $scope.effectiveAccuracyLevel = $scope.shotAccuracy + $scope.rangeAlm;
     }
   });
 
