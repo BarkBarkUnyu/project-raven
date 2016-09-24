@@ -42,7 +42,7 @@
             <div id="wrapper-alm-shooterStance">
                 <h2>Shooter Stance ALM</h2>
                 <label>
-                    Stance
+                    Stances
                     <select ng-model="selectMultipleAlmShooterStance" multiple>
                         <option ng-repeat="stance in table4B" ng-value="stance.alm">{{stance.stance}}</option>
                     </select>
@@ -50,6 +50,19 @@
                 <label>
                     ALM
                     <input type="number" value="1" ng-model="stanceAlm">
+                </label>
+            </div>
+            <div id="wrapper-alm-visibility">
+                <h2>Visibility ALM</h2>
+                <label>
+                    Visibility
+                    <select ng-model="selectMultipleAlmVisibility" multiple>
+                        <option ng-repeat="visibility in table4C" ng-value="visibility.alm">{{visibility.visibility}}</option>
+                    </select>
+                </label>
+                <label>
+                    ALM
+                    <input type="number" value="1" ng-model="visibilityAlm">
                 </label>
             </div>
             <button type="button" class="button" ng-click="calculateAlm()">Calculate</button>

@@ -10,6 +10,12 @@ $.getJSON("js/data/db/tableSACS/table4B-AlmStance.json",
         table4B = json;
         console.log("table4B loaded!");
     });
+table4C = {};
+$.getJSON("js/data/db/tableSACS/table4C-AlmVisibility.json",
+    function(json) {
+        table4B = json;
+        console.log("table4C loaded!");
+    });
 
 var appRaven = angular.module('appRaven', []);
 
@@ -23,8 +29,10 @@ appRaven.controller('ravenAlmCalculator', function($scope, $http) {
     $scope.rangeAlm = 0;
     $scope.shooterStance = 0;
     $scope.stanceAlm = 0;
+    $scope.visibilityAlm=0;
 
     $scope.table4B = table4B;
+    $scope.table4C = table4C;
 
     $scope.calculateAlm = function() {
         $scope.shotAccuracy = $scope.skillAccuracyLevel + $scope.aimTimeMod;
