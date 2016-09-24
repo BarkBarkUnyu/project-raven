@@ -13,7 +13,7 @@ $.getJSON("js/data/db/tableSACS/table4B-AlmStance.json",
 table4C = {};
 $.getJSON("js/data/db/tableSACS/table4C-AlmVisibility.json",
     function(json) {
-        table4B = json;
+        table4C = json;
         console.log("table4C loaded!");
     });
 
