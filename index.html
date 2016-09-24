@@ -43,7 +43,7 @@
                 <h2>Shooter Stance ALM</h2>
                 <label>
                     Stance
-                    <select ng-model="selectMultipleAlmShooterStance" ngChance="shooterStance()" multiple>
+                    <select ng-model="selectMultipleAlmShooterStance" ngChange="shooterStance()" multiple>
                         <option ng-repeat="stance in table4B" ng-value="stance.alm">{{stance.stance}}</option>
                     </select>
                     <pre>model = {{selectMultipleAlmShooterStance | json}}</pre><br/>
