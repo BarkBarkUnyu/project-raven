@@ -25,12 +25,6 @@ appRaven.controller('ravenAlmCalculator', function($scope, $http) {
     $scope.stanceAlm = 0;
 
     $scope.table4B = table4B;
-    $scope.shooterStance = function() {
-      alert("fuck");
-      $scope.stanceAlm = 0;
-      for (var i = 0; i < $scope.selectMultipleAlmShooterStance.length; i++) {
-        $scope.stanceAlm = $scope.stanceAlm + parseInt($scope.selectMultipleAlmShooterStance[i]);
-      }
     }
 
     $scope.calculateAlm = function() {
@@ -39,6 +33,10 @@ appRaven.controller('ravenAlmCalculator', function($scope, $http) {
             if ($scope.targetRange === table4A[i].range) {
                 $scope.rangeAlm = table4A[i].alm;
             }
+        }
+        $scope.stanceAlm = 0;
+        for (var i = 0; i < $scope.selectMultipleAlmShooterStance.length; i++) {
+            $scope.stanceAlm = $scope.stanceAlm + parseInt($scope.selectMultipleAlmShooterStance[i]);
         }
         $scope.effectiveAccuracyLevel = $scope.shotAccuracy + $scope.rangeAlm + $scope.stanceAlm;
     }
