@@ -49,6 +49,10 @@ appRaven.controller('ravenAlmCalculator', function($scope, $http) {
         for (var i = 0; i < $scope.selectMultipleAlmShooterStance.length; i++) {
             $scope.stanceAlm = $scope.stanceAlm + parseInt($scope.selectMultipleAlmShooterStance[i]);
         }
-        $scope.effectiveAccuracyLevel = $scope.shotAccuracy + $scope.rangeAlm + $scope.stanceAlm;
+        $scope.visibilityAlm = 0;
+        for (var i = 0; i < $scope.selectMultipleAlmVisibility.length; i++) {
+            $scope.visibilityAlm = $scope.visibilityAlm + parseInt($scope.selectMultipleAlmVisibility[i]);
+        }
+        $scope.effectiveAccuracyLevel = $scope.shotAccuracy + $scope.rangeAlm + $scope.stanceAlm + $scope.visibilityAlm;
     }
 });
