@@ -25,7 +25,6 @@ appRaven.controller('ravenAlmCalculator', function($scope, $http) {
     $scope.stanceAlm = 0;
 
     $scope.table4B = table4B;
-    }
 
     $scope.calculateAlm = function() {
         $scope.shotAccuracy = $scope.skillAccuracyLevel + $scope.aimTimeMod;
