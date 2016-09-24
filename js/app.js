@@ -39,6 +39,6 @@ appRaven.controller('ravenAlmCalculator', function($scope, $http) {
             }
         }
         $scope.effectiveAccuracyLevel = $scope.shotAccuracy + $scope.rangeAlm + $scope.stanceAlm;
-        $scope.stanceAlm = selectMultipleAlmShooterStance.length;
+        $scope.stanceAlm = $scope.selectMultipleAlmShooterStance.length;
     }
 });
