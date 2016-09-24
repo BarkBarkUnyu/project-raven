@@ -8,7 +8,7 @@
         function(json) { table4B = json;
             console.log("table4B loaded!"); });
 
-    var appRaven = angular.module('appRaven', []);
+    var appRaven = angular.module('appRaven', ['ngSanitize']);
 
     appRaven.controller('ravenAlmCalculator', function($scope, $http) {
 
@@ -22,6 +22,10 @@
         $scope.stanceAlm = 0;
 
 
+        // angular.forEach(table4B, function());
+        $scope.injectStance =
+          '<option value="' + 1 + '">' + 1 + '</option>'
+
         $scope.calculateAlm = function() {
             $scope.shotAccuracy = $scope.skillAccuracyLevel + $scope.aimTimeMod;
             for (var i = 0; i < table4A.length; i++) {
@@ -29,7 +33,7 @@
                     $scope.rangeAlm = table4A[i].alm;
                 }
             }
-            $scope.effectiveAccuracyLevel = $scope.shotAccuracy + $scope.rangeAlm;
+            $scope.effectiveAccuracyLevel = $scope.shotAccuracy + $scope.rangeAlm + $scope.stanceAlm;
         }
     });
 
